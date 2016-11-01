@@ -1,0 +1,104 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+body {
+	background: #163669;
+}
+
+/* Color Palette */
+.color-1 {
+	background: #FACF50;
+}
+.color-2 {
+	background: #F47820;
+}
+.color-3 {
+	background: #DC2926;
+}
+
+.color-4 {
+	background: #030e2c;
+}
+
+.color-5 {
+	background: #163669;
+}
+
+/* Textures or Patterns*/
+.pattern-1 {
+	background: url("../img/galaxy.png");
+}
+.pattern-2 {
+	background: url("../img/autumnVein.jpg");
+}
+
+.pattern-3 {
+	background: url("../img/blackmamba.png");
+}
+
+.pattern-4 {
+	background: url("../img/black_den.png");
+}
+
+.pattern-5 {
+	background: url("../img/noisy_net.png");
+}
+/* Imagery */
+
+
+/* Icons */
+
+
+/* Navigation */
+a:link,
+a:visited {	
+  color: #FACF50;
+  text-decoration: none;
+}
+
+a:focus {
+  background: #DC2926 ;
+}
+
+a:hover {
+  border-bottom: solid #DC2926 2px;
+  color: #DC2926;
+}
+
+a:active {
+  background: #FACF50;
+  color: white;
+}
+
+input {
+    background: white;
+    color: #DC2926;
+	padding: 5px 5px;
+}
+
+
+/* Typography */
+
+.grid-9, .grid-3
+{
+background: #030e2c;	
+}
+h1 {
+	font-family: 'Asap', sans-serif;
+	color: #DC2926;
+}
+
+h2 {
+	font-family: 'Asap', sans-serif;
+	color: #F47820;
+}
+h3 {
+	font-family: 'Asap', sans-serif;
+	color: #F47820;
+}
+
+p {
+	font-family: 'Asap', sans-serif;
+	color: white;
+}
