@@ -85,8 +85,10 @@ input {
 background: #030e2c;	
 }
 h1 {
-	font-family: 'Asap', sans-serif;
 	color: #DC2926;
+	font-family: 'Asap', sans-serif;
+	font-size: 3em;
+	font-style: bold;
 }
 
 h2 {
