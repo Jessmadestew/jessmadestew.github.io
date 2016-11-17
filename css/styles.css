@@ -33,6 +33,13 @@ container img {
 
 div {
 	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+footer p {
+	text-align: center;
+	font-size: .75em;
 }
 
 h1 {
