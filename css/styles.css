@@ -1,7 +1,106 @@
-body {
-  background: url(../img/stardust.png);
+a:link,
+a:visited {	
+  color: #FACF50;
+  text-decoration: none;
 }
 
-img {
-    width: 50%;
-    height: 50%;}
+a:hover {
+  border-bottom: solid #DC2926 2px;
+  color: #DC2926;
+}
+
+a:active {
+  background: #FACF50;
+  color: white;
+}
+
+body {
+  background: url(../img/black_den.png);
+}
+
+container img {
+	height: 10em;
+	width: 10em;
+	border-radius: 100px;
+	box-shadow: 0 0 1em #030e2c;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: -2;
+
+	margin: 1em;
+}
+
+div {
+	position: fixed;
+}
+
+h1 {
+	color: #DC2926;
+	background: #030e2c;
+	border-radius: 50px;
+	font-family: 'Asap', sans-serif;
+	font-size: 4em;
+	font-style: bold;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: 'Asap', sans-serif;
+	color: #DC2926;
+}
+h3 {
+	font-size: 1.5em;
+	font-family: 'Asap', sans-serif;
+	color: #F47820;
+}
+
+ .icon {
+	height: 5em;
+	width: 5em;
+	margin: 1em;
+	display: block;
+	margin-right: auto;
+ }
+
+ .ID {
+	border: 1em solid #030e2c;
+	border-radius: 50px;
+	float: center;
+	margin: 1em;
+    width: 30%;
+    height: 30%;}
+
+.contact {
+		color: white;
+	font-family: 'Asap', sans-serif;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+p {
+	color: white;
+	font-family: 'Asap', sans-serif;
+	font-size: 1.25em;
+	text-align: left;
+}
+
+
+section {
+	border-radius: 50px;
+	background: #163669;
+	box-shadow: 0 0 3em #030e2c;
+	margin: 2em auto;
+	padding: 2em;
+	width: 50em;
+}
+
+section img {
+	float: left;
+	margin: 1em;
+}
+
+ .header {
+	background: url("../img/galaxy.png");
+}
