@@ -245,6 +245,7 @@ h3 {
 	container {display:none;}
 	.thumb {height: 600px;}
 	.full {height: 700px;}
+	.tap {display: block;}
 
 }
 
@@ -256,6 +257,7 @@ h3 {
   container {display: block;}
   .thumb {height: 400px;}
   .full {height: 950px;}
+  .tap {display: none;}
 
 
 }
@@ -268,5 +270,5 @@ h3 {
   container {display: block;}
   .thumb {height: 200px;}
   .full {height: 1000px;}
-
+  .tap {display: none;}
 }
