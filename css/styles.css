@@ -79,8 +79,6 @@ h3 {
 }
 
  .icon {
-	height: 4.75em;
-	width: 4.75em;
 	margin: 10px;
 	display: block;
 	margin-right: auto;
@@ -245,10 +243,9 @@ h3 {
 
   /* Diagnostic Styling. */
 
-
+	.icon {height: 3.5em;
+		   width: 3.5em;}
 	.container {display:none;}
-	.icon {width: 3em;
-		   height: 3em;}
 	.thumb {height: 600px;}
 	.full {height: 700px;}
 	.tap {display: block;}
@@ -260,6 +257,8 @@ h3 {
 
   /* Diagnostic Styling. */
 
+  .icon {height: 4.75em;
+	     width: 4.75em;}
   .container {display: block;}
   .thumb {height: 400px;}
   .full {height: 950px;}
@@ -273,6 +272,8 @@ h3 {
   
   /* Diagnostic Styling. */
 
+  .icon {height: 4.75em;
+		 width: 4.75em;}
   .container {display: block;}
   .thumb {height: 200px;}
   .full {height: 1000px;}
