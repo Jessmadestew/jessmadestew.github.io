@@ -18,7 +18,7 @@ body {
   background: url(../img/black_den.png);
 }
 
-container img {
+.container img {
 	width: 10%;
 	border-radius: 100px;
 	position: fixed;
@@ -96,7 +96,7 @@ h3 {
     height: 30%;
 }
 
-.nav {
+.navigation {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -246,7 +246,9 @@ h3 {
   /* Diagnostic Styling. */
 
 
-	container {display:none;}
+	.container {display:none;}
+	.icon {width: 3em;
+		   height: 3em;}
 	.thumb {height: 600px;}
 	.full {height: 700px;}
 	.tap {display: block;}
@@ -258,7 +260,7 @@ h3 {
 
   /* Diagnostic Styling. */
 
-  container {display: block;}
+  .container {display: block;}
   .thumb {height: 400px;}
   .full {height: 950px;}
   .tap {display: none;}
@@ -271,7 +273,7 @@ h3 {
   
   /* Diagnostic Styling. */
 
-  container {display: block;}
+  .container {display: block;}
   .thumb {height: 200px;}
   .full {height: 1000px;}
   .tap {display: none;}
