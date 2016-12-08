@@ -170,10 +170,14 @@ input[type=submit] {
   margin-top: 15px;
 }
 
+input[type=submit]:hover {
+  color: #FACF50
+}  
+
 input:focus,
 textarea:focus{
-  background: red;
-  transition: #DC2926;
+  background: #DC2926;
+  transition: .5s;
   outline: none;
   padding: 28px
 }
